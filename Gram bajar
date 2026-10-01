@@ -1,0 +1,217 @@
+---
+name: Grambajar Portfolio
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#3e4a3d'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#6e7b6c'
+  outline-variant: '#bdcaba'
+  surface-tint: '#006e2d'
+  primary: '#006b2c'
+  on-primary: '#ffffff'
+  primary-container: '#00873a'
+  on-primary-container: '#f7fff2'
+  inverse-primary: '#62df7d'
+  secondary: '#2e6a41'
+  on-secondary: '#ffffff'
+  secondary-container: '#b1f2be'
+  on-secondary-container: '#347047'
+  tertiary: '#825100'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#a36700'
+  on-tertiary-container: '#fffbff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#7ffc97'
+  primary-fixed-dim: '#62df7d'
+  on-primary-fixed: '#002109'
+  on-primary-fixed-variant: '#005320'
+  secondary-fixed: '#b1f2be'
+  secondary-fixed-dim: '#96d5a3'
+  on-secondary-fixed: '#00210d'
+  on-secondary-fixed-variant: '#12512c'
+  tertiary-fixed: '#ffddb8'
+  tertiary-fixed-dim: '#ffb95f'
+  on-tertiary-fixed: '#2a1700'
+  on-tertiary-fixed-variant: '#653e00'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+typography:
+  display-hero:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-caps:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system expresses the intersection of deep-rooted rural empowerment and high-velocity digital craft. Built for a founder-operator operating across agritech, grassroots market dynamics, and modern product engineering, the aesthetic balances visceral earthy authenticity with the crisp precision of contemporary venture-backed software.
+
+The visual style is **Modern Agritech Editorial**: high-clarity structural layouts, tactile yet restrained micro-surfaces, ample breathing room, and purposeful accent hits. It avoids rustic clichés—eschewing burlap textures or faux-vintage motifs—in favor of luminous botanical greens, golden sunlit metrics, razor-sharp typography, and resilient, high-contrast information displays optimized for both mobile-first village field audits and global investor screens.
+
+## Colors
+
+The palette draws directly from vigorous agricultural yields and structured tech foundations:
+
+- **Primary (`#16A34A` - Vibrant Emerald)**: Serves as the primary operational accent, primary call-to-actions, vital indicators, and active state highlights.
+- **Secondary (`#14532D` - Deep Forest)**: Grounds headlines, dark mode toggles, navigation hero strips, structural badges, and foundational framing.
+- **Tertiary (`#F59E0B` - Harvest Gold)**: Deployed strictly for high-impact metric counters, milestones, founder callouts, and curated project tags.
+- **Neutral (`#0F172A` - Slate Ink)**: Anchors high-density body copy, primary headings on light surfaces, and structural border framing.
+
+Background surfaces default to an ultra-clean, warm-tinted off-white (`#F8FAFC` to `#FFFFFF`) with soft neutral borders (`#E2E8F0`) to ensure supreme readability and light reflection.
+
+## Typography
+
+Typography establishes an immediate hierarchy between editorial presence and product utility:
+
+- **Headlines (Plus Jakarta Sans)**: Delivers geometric warmth with contemporary energy. Characterized by tight tracking and bold structural weights, it commands attention in founder manifestos, impact metrics, and project titles.
+- **Body & Interface (Inter)**: Built for neutral legibility and consistent vertical rhythm. It renders complex operational metrics, supply chain case studies, and field notes without visual noise.
+- **Micro-labels (`label-caps`)**: Styled with uppercase letter-spacing for category pills, rural district tags, and milestone badges.
+
+## Layout & Spacing
+
+The layout is structured around an adaptive 12-column grid on desktop and a high-efficiency 4-column flow on mobile viewports:
+
+- **Desktop (1024px+)**: Max content container capped at `1280px` centered, utilizing `gutter: 1.5rem` and outer margins of `2rem` to `4rem`. Multi-column arrangements handle founder bios, dual-sided marketplace workflow showcases, and metric grids.
+- **Tablet (768px - 1023px)**: Reflows 12 columns to 8 columns with continuous 1.5rem gutters, stacking horizontal impact cards into structured 2x2 grids.
+- **Mobile (< 768px)**: 4-column fluid layout with compressed `1rem` gutters and `1.25rem` outer canvas padding. Priority elements stretch full width with finger-friendly 48px touch targets.
+
+## Elevation & Depth
+
+Visual hierarchy combines low-contrast outlines with ambient, botanical-tinted shadows to keep the interface light and breathable:
+
+- **Base Layer (Flat Ground)**: Backgrounds sit on `#F8FAFC` or `#FFFFFF` with no shadow. Structural division relies on 1px crisp borders (`#E2E8F0` or `#CBD5E1`).
+- **Surface Elevation 1 (Interactive Cards & Field Modules)**: Cards use `#FFFFFF` background, a 1px border (`#E2E8F0`), and an ultra-diffused shadow tinted with forest slate: `0 4px 20px -2px rgba(20, 83, 45, 0.05)`.
+- **Surface Elevation 2 (Floating Modals & Active Popovers)**: Elevated dropdowns and sticky navigation bars leverage frosted backdrop filtering (`backdrop-filter: blur(12px)`) combined with a soft border (`rgba(255, 255, 255, 0.8)`) and extended shadow: `0 12px 32px -4px rgba(15, 23, 42, 0.08)`.
+- **Hover Transitions**: Elevated cards translateY `-2px` on hover with shadow expansion: `0 12px 24px -4px rgba(22, 163, 74, 0.12)`.
+
+## Shapes
+
+The interface embraces a rounded, contemporary shape profile (`level 2`):
+
+- Standard components (buttons, input fields, action items) carry an outer corner radius of `0.5rem` (8px).
+- Product cards, interactive showcases, and media containers utilize `rounded-lg` (`1rem` / 16px).
+- Modal dialogues, hero containers, and founder highlight banners employ `rounded-xl` (`1.5rem` / 24px).
+- Metric chips, category indicators, and status dots leverage pill-rounding (`9999px`) to create clear contrast against structured card boxes.
+
+## Components
+
+### Buttons
+- **Primary**: Background `#16A34A`, text `#FFFFFF`, border none, font `label-lg`. Padding: `0.75rem 1.5rem`. Subtle shadow `0 2px 8px rgba(22, 163, 74, 0.25)`. Hover: `#15803D`.
+- **Secondary / Founder Action**: Deep Forest `#14532D` background, text `#FFFFFF`, hover: `#0F172A`.
+- **Ghost / Outline**: Transparent background, 1px border `#CBD5E1`, text `#0F172A`. Hover: background `#F1F5F9`, border `#94A3B8`.
+- **Mobile Target**: Minimum height 48px across all variants.
+
+### Badges & Chips
+- **Ecosystem / Metric Badges**: Pill-shaped with soft tinted backgrounds. 
+  - Emerald Tag: `#DCFCE7` background, `#15803D` text.
+  - Harvest Tag: `#FEF3C7` background, `#B45309` text.
+  - Architecture / Tech Tag: `#F1F5F9` background, `#334155` text.
+- Border: 1px semi-transparent matching text tone at 15% opacity.
+
+### Cards
+- **Portfolio & Case Study Cards**: Pure white surface, 1px border `#E2E8F0`, 16px border-radius. Internal padding `1.5rem`. Includes top tag slot, bold headline (`headline-sm`), contextual body, and an integrated footer linking live deployments or metrics.
+- **Metric Cards**: Centered value in `headline-lg` (or `display-hero`), paired with `label-caps` in deep forest green and an optional subtle gold accent line at the top.
+
+### Form Inputs & Newsletter
+- Inputs: `#FFFFFF` background, 1px border `#CBD5E1`, text `#0F172A`, 8px radius, padding `0.75rem 1rem`. Focus state: 2px ring `#16A34A` with border color `#16A34A`.
+- Placeholder: `#94A3B8`.
+
+### Checkboxes & Toggle Controls
+- Checkbox: 20px x 20px, 4px border radius. Unchecked: 1.5px border `#94A3B8`. Checked: `#16A34A` fill with white checkmark icon.
+
+### Agritech-Specific Component: Impact Stat Banner
+- Full-width or spanning grid panel with `#14532D` (Forest) surface, crisp typography in off-white, and Harvest Gold (`#F59E0B`) numeric counters highlighting key metrics (e.g., active village clusters, farmers onboarded, direct trade GMV).
